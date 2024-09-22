@@ -1,16 +1,16 @@
-.page{
+.page {
   width: 1100px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   padding: 92px 24px 96px 24px;
 }
 
-.cover{
+.cover {
   padding: 165px 50px 50px 50px;
   height: 757px;
   background-image: url(../images/cover.jpg);
@@ -23,29 +23,29 @@
   flex-wrap: wrap;
 }
 
-.lots{
+.lots {
   padding: 179px 24px 146px 24px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.about{
+.about {
   padding: 0 24px 180px 24px;
 }
 
-.footer{
+.footer {
   padding: 0 50px 88px 50px;
   display: flex;
   justify-content: space-between;
 }
 
-.header_menu{
+.header_menu {
   display: flex;
   align-items: center;
   text-underline-offset: 4px;
 }
 
-.header__links-list{
+.header__links-list {
   display: flex;
   list-style-type: circle;
   align-self: start;
@@ -53,19 +53,19 @@
   padding: 44px 36px 40px 27px;
 }
 
-.header__links-list-item{
+.header__links-list-item {
   font-size: 18px;
   line-height: 21.13px;
   list-style: circle outside;
 }
 
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
   font-size: 18px;
   line-height: 21.13px;
   list-style: none;
 }
 
-.header__logo{
+.header__logo {
   display:flex;
   width: 148px;
   height: 105px;
@@ -74,19 +74,19 @@
   margin-right: 185px;
 }
 
-.header__logo-image{
+.header__logo-image {
   margin: 1.16px 9.86px 0.81px 9.03px; 
   width: 148px;
   height: 105px;
 }
 
-.address{
+.address {
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
 }
 
-.overlay{
+.overlay {
   background-color: rgba(0, 0, 0, 0.6);
   inset: 0;
   background-size: cover;
@@ -95,7 +95,7 @@
   z-index: 1;
 }
 
-.cover__title{
+.cover__title {
   display: flex;
   z-index: 2;
   font-weight: 700;
@@ -113,18 +113,18 @@
   row-gap: 20px;
 }
 
-.aligned-text_space{
+.aligned-text_space {
   letter-spacing: 60px;
 }  
 
-.aligned-text{
+.aligned-text {
   display: flex;
   width: 316px;
   height: 115px;
   z-index: 2;
 }
 
-.aligned-text_center{
+.aligned-text_center {
   line-height: 100px;
   max-width: 100%; 
   width: 369px;
@@ -136,7 +136,7 @@
   margin-right: 90px;
 }
 
-.aligned-text_right{
+.aligned-text_right {
   line-height: 100px;
   max-width: 100%;
   height: 100px;
@@ -146,7 +146,7 @@
   margin-left: 583px;
 }
 
-.cover__description{
+.cover__description {
   display: flex;
   color: white;
   font-weight: 400;
@@ -158,7 +158,7 @@
   z-index: 2;
 }
 
-.cover__description-text{
+.cover__description-text {
   width: 637px;
   height: 28px;
   font-size: 22px;
@@ -169,7 +169,7 @@
   max-width: 100%;
 }
 
-.bet-button{
+.bet-button {
   width: 256px;
   height: 51px;
   margin-left: 79px;
@@ -184,7 +184,7 @@
   z-index: 2;
 }
 
-.lots__heading{
+.lots__heading {
   width: 121px;
   height: 47px;
   font-weight: 700;
@@ -195,7 +195,7 @@
   margin-right: 891px;
 }
 
-.lots__card-list{
+.lots__card-list {
   display: flex;
   flex-direction: row;
   list-style-type: none;
@@ -204,7 +204,7 @@
   column-gap: 25px;
 }
 
-.lots__card-list-item{
+.lots__card-list-item {
   width: 334px;
   height: 563px;
   display: flex;
@@ -213,7 +213,7 @@
   
 }
 
-.card{
+.card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -223,7 +223,7 @@
   height: 464px;
 }
 
-.card_type_film{
+.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
   background-position: center;
@@ -231,7 +231,7 @@
   z-index: 0;
 }
 
-.card_type_book{
+.card_type_book {
   background-image: url(../images/card-lot-02.jpg);
   background-size: cover;
   background-position: center;
@@ -239,7 +239,7 @@
   z-index: 0;
 }
 
-.card_type_picture{
+.card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
   background-size: cover;
   background-position: center;
@@ -247,7 +247,7 @@
   z-index: 0;
 }
 
-.cards_overlay{
+.cards_overlay {
   background-color: rgba(0, 0, 0, 0.6);
   inset: 0;
   background-size: cover;
@@ -257,7 +257,7 @@
   z-index: 1;
 }
 
-.card__title{
+.card__title {
   font-weight: 700;
   font-size: 22px;
   line-height: 26.4px;
@@ -270,7 +270,7 @@
   z-index: 2;
 }
 
-.card__text{
+.card__text {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -279,7 +279,7 @@
   z-index: 2;
 }
 
-.lots__look-more-link{
+.lots__look-more-link {
   width: 192px;
   height: 25px;
   font-size: 20px;
@@ -290,13 +290,13 @@
   text-underline-offset: 5px;
 }
 
-.about__column{
+.about__column {
   display: grid;
   grid-template-columns: 359px 693px;
   grid-template-rows: 283px 120px 192px;
 }
 
-.about__logo{
+.about__logo {
   width: 240px;
   height: 240px;
   border-radius: 50%;
@@ -308,14 +308,14 @@
   margin-top: 35px;
 }
 
-.about__logo-image{
+.about__logo-image {
   width: 148px;
   height: 114px;
   align-self: center;
   margin-left: 46.48px;
 }
 
-.about__title{
+.about__title {
   font-weight: 700;
   font-size: 40px;
   line-height: 46.96px;
@@ -325,7 +325,7 @@
   margin-top: 136px;
 }
 
-.about__text{
+.about__text {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -334,7 +334,7 @@
   align-self: end;
 }
 
-.footer__menu{
+.footer__menu {
   display: flex;
   text-align: center;
   text-underline-offset: 5px;
@@ -343,14 +343,14 @@
   margin-left: 34px;
 }
 
-.footer__menu-list{
+.footer__menu-list {
   list-style-type: none;
   font-weight: 400;
   font-size: 18px;
   line-height: 21.13px;
 }
 
-.footer__social-list{
+.footer__social-list {
   align-self: start;
   list-style-type: none;
   display: flex;
@@ -359,25 +359,7 @@
   justify-content: space-between;
 }
 
-.footer__social-icon{
+.footer__social-icon {
   width: 48px;
   height: 48px;
 }
-
-
-
-
-/*
-  1 Raleway 400 18 21.13 24.3
-  2 оно Raleway 700 100 115 тебе 100 100 надо 700 100 100
-  аукцион 400 22 28 
-  сделать ставку 500 22 25.83
-  3 лоты 700 40 46.96
-  заголовки лотов 700 22 26.4 
-  текст в них 400 20 24
-  посомтреть больше 400 20 23.48
-  4 об аукионе 700 40 46.96 
-  400 20 24
-  5 футер 400 18 24.3 
-  400 18 21.13
-*/
