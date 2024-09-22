@@ -126,7 +126,6 @@
 
 .aligned-text_center {
   line-height: 100px;
-  max-width: 100%; 
   width: 369px;
   display: flex;
   height: 100px;
@@ -264,9 +263,7 @@
   text-transform: uppercase;
   text-decoration: underline;
   display: flex;
-  justify-content: center;
   align-items: center;
-  justify-content: start;
   z-index: 2;
 }
 
